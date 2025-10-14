@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Generate Nbt Link</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .container { max-width: 600px; margin: auto; }
+    input, select, textarea { width: 100%; padding: 8px; margin: 6px 0; }
+    label { font-weight: bold; }
+    .checkbox-group { margin: 10px 0; }
+    .checkbox-group input { width: auto; }
+    .btn { background-color: green; color: white; padding: 10px; border: none; cursor: pointer; }
+    nav a { margin-right: 15px; text-decoration: none; color: blue; }
+  </style>
+</head>
+<body>
+  <nav align="center">
+    <a href="#">Home</a>
+    <a href="#">Generate Link</a>
+    <a href="#">Transaction History</a>
+    <a href="#">Policy</a>
+    <a href="#">Login</a>
+    <a href="#">Logout</a>
+  </nav>
+
+  <div class="container">
+    <h2>Generate Nbt Link</h2>
+
+    <label>Upload Picture</label>
+    <input type="file" name="picture">
+
+    <label>Title</label>
+    <input type="text" value="MacBook Air £800">
+
+    <label>Description</label>
+    <textarea>Year: 2009, Model: -, Condition: Mint</textarea>
+
+    <label>Account Number</label>
+    <input type="text" value="1234567890">
+
+    <label>Account Holder</label>
+    <input type="text" value="Name Here">
+
+    <label>Bank</label>
+    <select>
+      <option>HSBC</option>
+      <option>BNI</option>
+      <option>Mandiri</option>
+      <option>BCA</option>
+    </select>
+
+    <label>Transaction</label>
+    <select>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+    </select>
+    <small>* If the transaction is for 3 person, choose 3 from the drop-down list</small>
+
+    <div class="checkbox-group">
+      <label><input type="checkbox"> Send to Mobile Phone</label>
+      <input type="text" value="1234567890, 1234567891">
+    </div>
+
+    <div class="checkbox-group">
+      <label><input type="checkbox"> Send to Email</label>
+      <input type="text" value="mfmf123@aston.ac.uk, fys_06@yahoo.com">
+    </div>
+
+    <button class="btn">Generate Nbt Link</button>
+    <form action="praktikum2.html" method="POST">
+  <!-- input fields -->
+</form>
+  </div>
+</body>
+</html>
