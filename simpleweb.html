@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',;
+            margin:0;
+            padding:0;
+        }
+        .header {
+            background-color: orangered;
+            color: white;
+            text-align: center;
+            padding: 15;
+        }
+        .container {
+            padding: 20px;
+            gap: 20px;
+        }
+        .main-article {
+            flex: 60px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            flex: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .sidebar .box {
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+        <h1>My Website</h1>
+    </header>
+    <div class="container" style="display: flex;">
+        <div class="main-article">
+            <h2>Main Article</h2>
+            <p>This is the main content area of the website. Here you can add articles, images, and other important information.</p>
+        </div>
+        <div class="sidebar">
+            <div class="box">Sidebar Box 1</div>
+            <div class="box">Sidebar Box 2</div>
+            <div class="box">Sidebar Box 3</div>
+        </div>
+    </div>
+    <footer>
+        <p style="text-align: center; padding: 10px; background-color: orangered; color: white;">&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
